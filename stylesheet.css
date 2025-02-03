@@ -20,8 +20,7 @@ header{
 
 .navbar a{
     color: #021013;
-    font-size: 24;
-
+    font-size: 24px;
 }
 
 .navbar a:hover{
