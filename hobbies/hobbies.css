@@ -1,0 +1,121 @@
+header{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Graduate", serif;
+    color: #021013;
+    font-size: 30px;
+}
+
+.navbar{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    color: #021013;
+    
+}
+
+.navbar a{
+    color: #021013;
+    font-size: 24;
+
+}
+
+.navbar a:hover{
+    color: #DDCEDE;
+}
+
+img{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D4D4ED;
+}
+
+#container{
+    margin-top: 40px;
+    width: 1000px;     
+    
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto 1fr 1fr;
+}
+
+
+#pic1{
+    width:4cqi;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+#pic1desc{
+    width: 500px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2
+ 
+}
+
+#pic2{
+    width:400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+}
+#pic2desc{
+    width: 500px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+ 
+}
+
+#pic3{
+    width:400px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+#pic3desc{
+    width: 400px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ 
+}
+
+#pic4{
+    width:400px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+ 
+}
+
+
+#pic4desc{
+    width: 400px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+ 
+}
+
+h2{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    font-weight: 20;
+}
+
+p{
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: 20;
+    line-height: 1.5;
+}

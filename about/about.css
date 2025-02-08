@@ -1,0 +1,105 @@
+header{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Graduate", serif;
+    color: #021013;
+    font-size: 30px;
+}
+
+.navbar{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    color: #021013;
+    
+}
+
+.navbar a{
+    color: #021013;
+    font-size: 24;
+
+}
+
+.navbar a:hover{
+    color: #DDCEDE;
+}
+
+h2{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    font-weight: 20;
+}
+
+img{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D4D4ED;
+}
+figcaption{
+    font-family: "EB Garamond", serif;
+    color: #021013;
+    font-size: 15px
+}
+p{
+    color: #021013;
+    line-height: 1.5;
+    font-family: "EB Garamond", serif;
+    font-size: 20px
+
+}
+#text{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#container{
+    margin-top: 40px;
+    width: 99%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;       
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px 400px;
+}
+
+
+
+
+#pic1{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#pic3{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+}
+
+#pic2{
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#pic4{
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 2;
+ 
+}
+
